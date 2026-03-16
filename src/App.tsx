@@ -671,7 +671,7 @@ const HomePage = () => {
               <div className="mt-10 p-6 bg-slate-900 rounded-3xl text-white">
                 <p className="text-sm opacity-60 mb-2 uppercase tracking-widest font-bold">Event Resources</p>
                 <p className="text-lg font-bold mb-4">Symposium Brochure</p>
-                <a href="/assets/brochure.pdf" download="DynaMechs2k26_Brochure.pdf" className="block w-full text-center bg-orange-500 py-3 rounded-xl font-black hover:bg-orange-600 transition-colors flex items-center justify-center gap-2">
+                <a href="/public/assets/brochure.pdf" download="DynaMechs2k26_Brochure.pdf" className="block w-full text-center bg-orange-500 py-3 rounded-xl font-black hover:bg-orange-600 transition-colors flex items-center justify-center gap-2">
                   <ExternalLink size={18} /> DOWNLOAD PDF
                 </a>
               </div>
