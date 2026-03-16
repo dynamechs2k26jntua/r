@@ -21,7 +21,7 @@ export const events: EventDetail[] = [
   // Technical Events
   {
     id: 'techspark',
-    name: 'TechSpark 2026',
+    name: 'TECNION',
     icon: Cpu,
     category: 'technical',
     shortDescription: 'Present your innovative ideas and showcase your technical knowledge!',

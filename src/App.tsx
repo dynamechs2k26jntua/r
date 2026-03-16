@@ -38,12 +38,12 @@ const ScrollToTop = () => {
 // --- Constants ---
 
 const GALLERY_IMAGES = [
-  { src: "/assets/gallery-1.jpg", alt: "Mechanical Workshop" },
-  { src: "/assets/gallery-2.jpg", alt: "Technical Presentation" },
-  { src: "/assets/gallery-3.jpg", alt: "Project Expo" },
-  { src: "/assets/gallery-4.jpg", alt: "Inauguration Ceremony" },
-  { src: "/assets/gallery-1.jpg", alt: "Student Innovation" },
-  { src: "/assets/gallery-2.jpg", alt: "Robotics Competition" },
+  { src: "/r/assets/gallery-1.jpg", alt: "Mechanical Workshop" },
+  { src: "/r/assets/gallery-2.jpg", alt: "Technical Presentation" },
+  { src: "/r/assets/gallery-3.jpg", alt: "Project Expo" },
+  { src: "/r/assets/gallery-4.jpg", alt: "Inauguration Ceremony" },
+  { src: "/r/assets/gallery-1.jpg", alt: "Student Innovation" },
+  { src: "/r/assets/gallery-2.jpg", alt: "Robotics Competition" },
 ];
 
 // --- Components ---
@@ -497,7 +497,7 @@ const HomePage = () => {
             <div className="absolute -top-10 -left-10 w-40 h-40 bg-orange-100 rounded-full blur-3xl opacity-50" />
             <div className="relative glass-card p-4 rounded-[2.5rem] rotate-3 max-w-md mx-auto">
               <img 
-                src="/assets/about.jpg" 
+                src="/r/assets/about.png" 
                 alt="Mechanical Engineering" 
                 className="rounded-[1.5rem] w-full aspect-[3/4] object-cover shadow-2xl"
                 referrerPolicy="no-referrer"
@@ -510,10 +510,10 @@ const HomePage = () => {
           <div>
             <div className="flex items-center gap-3 mb-6">
               <div className="w-12 h-1 bg-orange-500 rounded-full" />
-              <span className="text-orange-600 font-black tracking-widest text-sm uppercase">01. About DYNAMECHS</span>
+              <span className="text-orange-600 font-black tracking-widest text-sm uppercase">About DYNAMECHS</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-display font-black text-slate-900 mb-8 leading-tight">
-              Fueling Innovation in <span className="text-orange-500">Mechanical Engineering</span>
+              <span className="text-orange-500">Mechanical Engineering</span>
             </h2>
             <p className="text-slate-600 text-lg leading-relaxed mb-8">
               DYNAMECHS 2026 is a premier National Level Technical Symposium organized by the Department of Mechanical Engineering at JNTUA College of Engineering Anantapur. 
@@ -521,7 +521,7 @@ const HomePage = () => {
             </p>
             <div className="grid grid-cols-1 gap-8">
               <div className="flex flex-col gap-2">
-                <span className="text-3xl font-black text-orange-500">15+</span>
+                <span className="text-3xl font-black text-orange-500">7+</span>
                 <span className="text-slate-500 font-bold text-xs uppercase tracking-widest">Technical Events</span>
               </div>
             </div>
@@ -533,7 +533,7 @@ const HomePage = () => {
       <section id="events" className="py-24 px-6 bg-[#FFFBF7]">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-20">
-            <span className="text-orange-600 font-black tracking-[0.3em] text-xs uppercase">03. Competition Arena</span>
+            <span className="text-orange-600 font-black tracking-[0.3em] text-xs uppercase">Competition Arena</span>
             <h2 className="text-4xl md:text-6xl font-display font-black text-slate-900 mt-4">TECHNICAL EVENTS</h2>
           </div>
           
@@ -549,7 +549,7 @@ const HomePage = () => {
       <section id="non-tech-events" className="py-24 px-6 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-20">
-            <span className="text-orange-600 font-black tracking-[0.3em] text-xs uppercase">04. Fun Zone</span>
+            <span className="text-orange-600 font-black tracking-[0.3em] text-xs uppercase">Fun Zone</span>
             <h2 className="text-4xl md:text-6xl font-display font-black text-slate-900 mt-4">NON-TECHNICAL EVENTS</h2>
           </div>
           
@@ -565,7 +565,7 @@ const HomePage = () => {
       <section id="schedule" className="py-24 px-6 bg-[#FFFBF7] overflow-hidden">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-20">
-            <span className="text-orange-600 font-black tracking-[0.3em] text-xs uppercase">05. Event Timeline</span>
+            <span className="text-orange-600 font-black tracking-[0.3em] text-xs uppercase">Event Timeline</span>
             <h2 className="text-4xl md:text-6xl font-display font-black text-slate-900 mt-4">SYMPOSIUM SCHEDULE</h2>
           </div>
 
@@ -588,7 +588,7 @@ const HomePage = () => {
       <section id="gallery" className="py-24 px-6 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-20">
-            <span className="text-orange-600 font-black tracking-[0.3em] text-xs uppercase">06. Visuals</span>
+            <span className="text-orange-600 font-black tracking-[0.3em] text-xs uppercase">Visuals</span>
             <h2 className="text-4xl md:text-6xl font-display font-black text-slate-900 mt-4 uppercase">Symposium Gallery</h2>
           </div>
 
@@ -612,7 +612,7 @@ const HomePage = () => {
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-16">
             <div>
-              <span className="text-orange-600 font-black tracking-[0.3em] text-xs uppercase">06. Get in Touch</span>
+              <span className="text-orange-600 font-black tracking-[0.3em] text-xs uppercase">Get in Touch</span>
               <h2 className="text-4xl md:text-5xl font-display font-black text-slate-900 mt-4 mb-8">CONTACT US</h2>
               <p className="text-slate-600 mb-12">Have questions about the events or registration? Reach out to our team.</p>
               
@@ -671,7 +671,7 @@ const HomePage = () => {
               <div className="mt-10 p-6 bg-slate-900 rounded-3xl text-white">
                 <p className="text-sm opacity-60 mb-2 uppercase tracking-widest font-bold">Event Resources</p>
                 <p className="text-lg font-bold mb-4">Symposium Brochure</p>
-                <a href="#" className="block w-full text-center bg-orange-500 py-3 rounded-xl font-black hover:bg-orange-600 transition-colors flex items-center justify-center gap-2">
+                <a href="/assets/brochure.pdf" download="DynaMechs2k26_Brochure.pdf" className="block w-full text-center bg-orange-500 py-3 rounded-xl font-black hover:bg-orange-600 transition-colors flex items-center justify-center gap-2">
                   <ExternalLink size={18} /> DOWNLOAD PDF
                 </a>
               </div>
@@ -992,7 +992,7 @@ const GalleryPage = () => {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/r">
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<HomePage />} />
